@@ -1,0 +1,24 @@
+{
+  "name": "elm-parcel-bolierplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for elm with parcel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "api": "elm-graphql https://countries.trevorblades.com/ --base Country --output src/elm"
+  },
+  "author": "Yasuyuki Komatsubara",
+  "license": "ISC",
+  "devDependencies": {
+    "@dillonkearns/elm-graphql": "^3.0.0",
+    "cssnano": "^4.1.7",
+    "elm": "^0.19.0-bugfix2",
+    "node-elm-compiler": "^5.0.1",
+    "parcel-bundler": "^1.10.3",
+    "postcss": "^7.0.6",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.15.1",
+    "tailwindcss": "^0.7.2"
+  }
+}
